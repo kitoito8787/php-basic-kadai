@@ -5,6 +5,5 @@ $vegetable = [
   "weight" => 160
 ];
 
-echo $vegetable["name"];
-echo $vegetable["price"];
-echo $vegetable["weight"];
+// 連想配列全体を出力
+print_r($vegetable);
